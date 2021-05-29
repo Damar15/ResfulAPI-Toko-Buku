@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Ajax Tutorial</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <link rel="stylesheet" href="../css/customer.css">
+    <link rel="stylesheet" href="../responsive.css">
+</head>
+<body>
+    <header>
+        <div class="back">
+            <a href="../index.html"><img src="../Assets/back-icon.svg" alt="back"></a>
+        </div>
+        <div class="heading">
+            <h1>Customer Table</h1>
+        </div>
+    </header>
+    <main>
+        <h2>List of Customers</h2>
+        <table id="creates">
+            <tr>
+                <th>Id Pelanggan</th>
+                <th>Nama Pelanggan</th>
+                <th>Kota Pelanggan</th>
+                <th>Kode Pos</th>
+                <th>Alamat Pelanggan</th>
+            </tr>
+        </table>
+        <h2>Insert New Customer</h2>
+        <div class="form-container">
+            <div class="image">
+                <img src="../Assets/Customer.png" alt="DesignBuku">
+            </div>
+            <div class="form">
+                <img src="../Assets/Logo.svg" alt="Logo">
+                <div class="row-1">
+                    <input type="number" placeholder="idPelanggan" id="idPelanggan">
+                    <input type="text" placeholder="Nama Pelanggan" id="namaPelanggan">
+                </div>
+                <div class="row-2">
+                    <input type="text" placeholder="Kota Pelanggan" id="kotaPelanggan">
+                    <input type="number" placeholder="Kode Pos" id = "kodePos">
+                </div>
+                <input type="text" placeholder="Alamat Pelanggan" id="alamatPelanggan">
+                <button id="add-cust">Submit</button>
+            </div>
+            
+        </div>
+        
+        
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://unpkg.com/mustache@4.2.0/mustache.js"></script>
+    <script src="../Javascript/customer.js"></script>
+</body>
+</html>

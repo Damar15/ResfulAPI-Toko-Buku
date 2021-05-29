@@ -1,0 +1,162 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+main{
+    overflow:auto;
+}
+    
+
+body, input, button {
+    font-size: 12px;
+    font-family: "Arial Rounded MT";
+}
+
+a {
+    transition: 500ms;
+    -webkit-transition: 500ms;
+    -moz-transition: 500ms;
+    -ms-transition: 500ms;
+    -o-transition: 500ms;
+}
+
+a:hover {
+    opacity: .5;
+    transition: 500ms;
+    -webkit-transition: 500ms;
+    -moz-transition: 500ms;
+    -ms-transition: 500ms;
+    -o-transition: 500ms;
+}
+
+/* style */
+
+body {
+    padding: 50px;
+}
+
+a {
+    color: #00B7FF;
+}
+
+ul {
+    padding: 0;
+}
+
+ul li {
+    list-style-type: none;
+    background: #dfdfdf;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+ul li .edit {
+    display: none;
+}
+
+ul li.edit .edit {
+    display: initial;
+}
+
+ul li.edit .noedit {
+    display: none;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table th {
+    background-color: #1A2744;
+    color: #00B7FF;
+    text-align: center;
+}
+
+td, th {
+    border: 2px solid #737c92;
+    text-align: center;
+    padding: 8px;
+}
+
+table th {
+    font-size: 20px;
+}
+
+table td {
+    font-size: 15px;
+}
+
+table tr {
+    text-align: center;
+    color: #1A2744;
+    background-color: #45ADFF;
+}
+
+tr:nth-child(odd) {
+    background-color: #fff;
+    color: #1A2744;
+}
+
+/* body */
+body {
+    background-color: #1A2744;
+}
+
+/* Header */
+header {
+    background-color: #45ADFF;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    padding: 20px 120px;
+    display: flex;
+    align-items: center;
+}
+
+header .heading {
+    margin: 0 auto;
+}
+
+header h1 {
+    color: #1A2744;
+}
+
+/* Main */
+main {
+    margin-top: 80px;
+    padding: 20px 120px;
+}
+
+main h2 {
+    color: #45ADFF;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+/* next */
+.next {
+    padding: 70px;
+}
+
+.next a {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 50%;
+    height: auto;
+    padding: 20px;
+    font-size: 25px;
+    background-color: #00B7FF;
+    color: #1A2744;
+    text-decoration: none;
+}

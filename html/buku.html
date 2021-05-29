@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Ajax Tutorial</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <link rel="stylesheet" href="../css/buku.css">
+    <link rel="stylesheet" href="../responsive.css">
+</head>
+<body>
+    <header>
+        <div class="back">
+            <a href="../index.html"><img src="../Assets/back-icon.svg" alt="back"></a>
+        </div>
+        <div class="heading">
+            <h1>Book Table</h1>
+        </div>
+    </header>
+    <main>
+        <h2>List of Books</h2>
+        <table id="creates">
+            <tr>
+                <th>Id Buku</th>
+                <th>Judul Buku</th>
+                <th>Nama Penulis</th>
+                <th>Rating Buku</th>
+                <th>Harga Buku</th>
+            </tr>
+        </table>
+        <h2>Insert New Book</h2>
+        <div class="form-container">
+            <div class="image">
+                <img src="../Assets/Buku.png" alt="DesignBuku">
+            </div>
+            <div class="form">
+                <img src="../Assets/Logo.svg" alt="Logo">
+                <div class="row-1">
+                    <input type="number" placeholder="idBuku" id="idBuku">
+                    <input type="text" placeholder="Judul Buku" id="judulBuku">
+                </div>
+                <div class="row-2">
+                    <input type="number" placeholder="hargaBuku" id="hargaBuku">
+                    <input type="number" placeholder="ratingBuku" id = "ratingBuku">
+                </div>
+                <input type="text" placeholder="Nama Penulis" id="namaPenulis">
+                <button id="add-book">Submit</button>
+            </div>
+            
+        </div>
+        
+        
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://unpkg.com/mustache@4.2.0/mustache.js"></script>
+    <script src="../Javascript/buku.js"></script>
+</body>
+</html>
